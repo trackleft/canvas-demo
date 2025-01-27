@@ -1,5 +1,5 @@
 {
-    "name": "drupal/xb-demo",
+    "name": "phenaproxima/xb-demo",
     "description": "A pre-alpha demo of Experience Builder running on top of Drupal CMS.",
     "type": "project",
     "license": "GPL-2.0-or-later",

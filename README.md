@@ -10,6 +10,6 @@ mkdir xb-demo
 cd xb-demo
 ddev config --project-type=drupal11 --docroot=web
 ddev start
-ddev composer create drupal/xb-demo --stability=dev
+ddev composer create phenaproxima/xb-demo --stability=dev
 ddev launch
 ```

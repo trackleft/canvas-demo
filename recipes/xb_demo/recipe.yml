@@ -1,6 +1,6 @@
 name: Experience Builder
-type: Drupal CMS
-description: A read-only demonstration of the next-generation Experience Builder for Drupal.
+type: Demo
+description: A demonstration of the next-generation Experience Builder for Drupal.
 install:
   - experience_builder
 config:

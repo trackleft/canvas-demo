@@ -1,39 +1,15 @@
-# Drupal CMS
+## WARNING
+This repository is intended to provide a **pre-alpha demo** of Experience Builder running on top of Drupal CMS. **Experience Builder is not stable** and could change anything, at any time, without warning. There is no update path. Additionally, this demo project will be _abandoned_ when Experience Builder reaches beta (expected in mid-2025).
 
-Drupal CMS is a fast-moving open source product that enables site builders to easily create new Drupal sites and extend them with smart defaults, all using their browser.
+[Feedback is very welcome](https://www.drupal.org/node/add/project-issue/experience_builder), but **you absolutely _SHOULD NOT_ use this project to build a real site.**
 
-## Getting started
-
-If you want to run Drupal CMS locally use [DDEV](https://ddev.com), and follow these instructions:
-
-1. Install DDEV following the [documentation](https://ddev.com/get-started/)
-2. Open the command line and `cd` to the root directory of this project
-3. Run the command `./launch-drupal-cms.sh`
-
-### Installation options
-
-The Drupal CMS installer offers a list of features preconfigured with smart defaults. You will be able to customize whatever you choose, and add additional features, once you are logged in.
-
-After the installer is complete, you will land on the dashboard.
-
-## Documentation
-
-Coming soon ... [We're working on Drupal CMS specific documentation](https://www.drupal.org/project/drupal_cms/issues/3454527).
-
-In the meantime, learn more about managing a Drupal-based application in the [Drupal User Guide](https://www.drupal.org/docs/user_guide/en/index.html).
-
-## Contributing
-
-Drupal CMS is developed in the open on [Drupal.org](https://www.drupal.org). We are grateful to the community for reporting bugs and contributing fixes and improvements.
-
-[Report issues in the queue](https://drupal.org/node/add/project-issue/drupal_cms), providing as much detail as you can. You can also join the #drupal-cms-support channel in the [Drupal Slack community](https://www.drupal.org/slack).
-
-Drupal CMS has adopted a [code of conduct](https://www.drupal.org/dcoc) that we expect all participants to adhere to.
-
-To contribute to Drupal CMS development, see the [drupal_cms project](https://www.drupal.org/project/drupal_cms).
-
-## License
-
-Drupal CMS and all derivative works are licensed under the [GNU General Public License, version 2 or later](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
-
-Learn about the [Drupal trademark and logo policy here](https://www.drupal.com/trademark).
+## Getting Started
+We strongly recommend using [DDEV](https://ddev.com/get-started/) (version 1.24.0 or later) to run this project, since it includes everything you'll need. Run the following commands to spin up with DDEV:
+```shell
+mkdir xb-demo
+cd xb-demo
+ddev config --project-type=drupal11 --docroot=web
+ddev start
+ddev composer create drupal/xb-demo --stability=dev
+ddev launch
+```

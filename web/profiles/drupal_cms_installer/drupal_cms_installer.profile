@@ -258,7 +258,12 @@ function drupal_cms_installer_apply_recipes(array &$install_state): array {
   $recipe_operations = [];
 
   foreach ($recipes_to_apply as $name) {
-    $recipe = InstalledVersions::getInstallPath('drupal/' . $name);
+    if ($name === 'xb_demo') {
+      $recipe = __DIR__ . '/xb_demo';
+    }
+    else {
+      $recipe = InstalledVersions::getInstallPath('drupal/' . $name);
+    }
     $recipe = Recipe::createFromDirectory($recipe);
     $recipe_operations = array_merge($recipe_operations, RecipeRunner::toBatchOperations($recipe));
   }
@@ -306,6 +311,10 @@ function drupal_cms_installer_library_info_alter(array &$libraries, string $exte
 function drupal_cms_installer_uninstall_myself(): void {
   \Drupal::service(ModuleInstallerInterface::class)->uninstall([
     'drupal_cms_installer',
+    'automatic_updates',
+    'automatic_updates_extensions',
+    'package_manager',
+    'project_browser',
   ]);
 
   // The install is done, so we don't need the list of applied recipes anymore.

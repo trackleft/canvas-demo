@@ -101,6 +101,9 @@ final class RecipesForm extends FormBase {
       $add_ons = $form_state->getValue('add_ons', []);
       $add_ons = array_filter($add_ons);
       array_push($install_state['parameters']['recipes'], ...array_values($add_ons));
+      // Always apply the XB demo last, so that it gets the components that are
+      // part of the Olivero subtheme.
+      $install_state['parameters']['recipes'][] = 'xb_demo';
     }
   }
 

@@ -6,7 +6,7 @@ This repository is intended to provide a **pre-beta demo** of Experience Builder
 [Feedback is very welcome](https://www.drupal.org/node/add/project-issue/experience_builder), but **you ABSOLUTELY _SHOULD NOT_ use this project to build a real site.**
 
 ## About
-Experience Builder (or XB for short) is Drupal's next-generation page building tool, [currently under heavy development on drupal.org](https://www.drupal.org/project/experience_builder). If you've heard about Drupal CMS, you're probably eager to try out XB. You've come to the right place. 😎
+Experience Builder (or XB for short) is Drupal's next-generation page building tool, [currently under heavy development on drupal.org](https://www.drupal.org/project/experience_builder). If you've heard about Drupal CMS, and you're eager to try out XB, you've come to the right place. 😎
 
 ## Getting Started 🚀
 We strongly recommend using [DDEV](https://ddev.com/get-started/) (version 1.24.0 or later) to run this project, since it includes everything you'll need. Run the following commands to spin up with DDEV:

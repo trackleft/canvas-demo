@@ -14,7 +14,6 @@ We strongly recommend using [DDEV](https://ddev.com/get-started/) (version 1.24.
 mkdir xb-demo
 cd xb-demo
 ddev config --project-type=drupal11 --docroot=web
-ddev start
 ddev composer create phenaproxima/xb-demo --stability=dev
 ddev launch
 ```

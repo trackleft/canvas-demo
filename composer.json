@@ -36,6 +36,7 @@
         "drupal/project_browser": "@alpha",
         "drupal/recipe_installer_kit": "^1@alpha",
         "drupal/webform": "@beta",
+        "drupal/xb_demo": "@dev",
         "drush/drush": "^13"
     },
     "conflict": {

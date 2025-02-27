@@ -18,6 +18,10 @@ config:
     # Re-enable the components provided by Drupal CMS.
     experience_builder.component.sdc.drupal_cms_olivero.*:
       enable: []
+    block.block.drupal_cms_olivero_breadcrumbs:
+      disable: []
+    block.block.drupal_cms_olivero_page_title:
+      disable: []
     project_browser.admin_settings:
       simpleConfigUpdate:
         enabled_sources:

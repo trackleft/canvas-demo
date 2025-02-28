@@ -32,7 +32,7 @@
         "drupal/drupal_cms_project": "^1",
         "drupal/drupal_cms_seo_tools": "^1.0.1",
         "drupal/drupal_cms_starter": "^1.0.1",
-        "drupal/experience_builder": "@dev",
+        "drupal/experience_builder": "0.2.0-alpha1@alpha",
         "drupal/project_browser": "@alpha",
         "drupal/recipe_installer_kit": "^1-alpha3@alpha",
         "drupal/webform": "@beta",
@@ -72,12 +72,5 @@
             "recipes/{$name}": ["type:drupal-recipe"],
             "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
         }
-    },
-    "scripts": {
-        "post-update-cmd": [
-            "@putenv XB_JS_PATH=web/modules/contrib/experience_builder/ui",
-            "npm install --prefix=$XB_JS_PATH",
-            "npm run build --prefix=$XB_JS_PATH"
-        ]
     }
 }

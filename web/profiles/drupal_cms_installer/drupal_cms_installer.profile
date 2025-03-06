@@ -10,7 +10,8 @@ use Drupal\RecipeKit\Installer\Messenger;
 /**
  * Implements hook_install_tasks().
  */
-function drupal_cms_installer_install_tasks(): array {
+function drupal_cms_installer_install_tasks(array &$install_state): array {
+  $install_state['parameters']['site_name'] = 'Experience Builder Demo';
   $tasks = Hooks::installTasks();
 
   if (getenv('IS_DDEV_PROJECT')) {

@@ -5,6 +5,7 @@ install:
   - block
   - experience_builder
   - gin
+  - navigation_top_bar
   - project_browser
 config:
   import:

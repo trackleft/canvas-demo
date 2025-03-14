@@ -37,6 +37,10 @@ config:
       simpleConfigUpdate:
         enabled_sources:
           - drupalorg_jsonapi
+    system.performance:
+      simpleConfigUpdate:
+        css.preprocess: false
+        js.preprocess: false
     system.theme:
       simpleConfigUpdate:
         default: starshot_demo

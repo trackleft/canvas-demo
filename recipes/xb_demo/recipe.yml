@@ -1,20 +1,51 @@
-name: Experience Builder
+name: Experience Builder Demo
 type: Demo
 description: A demonstration of the next-generation Experience Builder for Drupal.
 recipes:
+  - core/recipes/administrator_role
+  - core/recipes/core_recommended_maintenance
+  - core/recipes/core_recommended_performance
+  - drupal_cms_admin_ui
+  - drupal_cms_anti_spam
+  - drupal_cms_authentication
+  - drupal_cms_page
+  - drupal_cms_privacy_basic
+  - drupal_cms_seo_basic
   - starshot_demo_content
 install:
   - block
   - experience_builder
   - gin
   - navigation_top_bar
-  - project_browser
   - starshot_demo
+  - automated_cron
+  - dashboard
+  - eca_base
+  - eca_config
+  - eca_content
+  - eca_misc
+  - eca_render
+  - eca_user
+  - menu_link_content
+  # The rest of these are in Standard.
+  - inline_form_errors
+  - config
+  - menu_ui
+  - token
+  - views_ui
 config:
   import:
     experience_builder:
       - image.style.xb_avatar
       - experience_builder.xb_asset_library.global
+    image:
+      - image.style.large
+      - image.style.thumbnail
+    user:
+      # This view mode is only needed because Olivero expects it to exist
+      # in certain situations.
+      - core.entity_view_mode.user.compact
+      - views.view.user_admin_people
   actions:
     # Disable all components XB generated during installation. Some components
     # have two- or three-part identifiers, so we need to disable those
@@ -26,21 +57,60 @@ config:
     # Re-enable the components provided by Drupal CMS.
     experience_builder.component.sdc.drupal_cms_olivero.*:
       enable: []
-    block.block.drupal_cms_olivero_breadcrumbs:
-      disable: []
-    block.block.drupal_cms_olivero_page_title:
-      disable: []
     gin.settings:
       simpleConfigUpdate:
         secondary_toolbar_frontend: false
-    project_browser.admin_settings:
-      simpleConfigUpdate:
-        enabled_sources:
-          - drupalorg_jsonapi
     system.performance:
       simpleConfigUpdate:
         css.preprocess: false
         js.preprocess: false
+    system.site:
+      simpleConfigUpdate:
+        page.front: '/home'
     system.theme:
       simpleConfigUpdate:
         default: starshot_demo
+        admin: gin
+    user.role.content_editor:
+      grantPermissionsForEachMediaType:
+        - 'create %bundle media'
+        - 'delete any %bundle media'
+        - 'edit any %bundle media'
+      grantPermissions:
+        - 'access administration pages'
+        - 'access contextual links'
+        - 'access media overview'
+        - 'access navigation'
+        # We need this permission because Toolbar is enabled by Gin Toolbar.
+        - 'access toolbar'
+        - 'administer url aliases'
+        - 'create url aliases'
+        - 'view own unpublished media'
+        - 'delete own files'
+        - 'revert all revisions'
+        - 'view all revisions'
+        - 'view the administration theme'
+    node.settings:
+      simpleConfigUpdate:
+        use_admin_theme: true
+    user.role.authenticated:
+      grantPermissions:
+        - 'delete own files'
+        - 'view own unpublished content'
+        - 'view welcome dashboard'
+    user.settings:
+      simpleConfigUpdate:
+        verify_mail: true
+        register: admin_only
+        cancel_method: user_cancel_block
+    announcements_feed.settings:
+      simpleConfigUpdate:
+        limit: 2
+    core.menu.static_menu_link_overrides:
+      simpleConfigUpdate:
+        definitions.announcements_feed__announcement:
+          menu_name: admin
+          parent: system.admin
+          weight: 0
+          expanded: false
+          enabled: false

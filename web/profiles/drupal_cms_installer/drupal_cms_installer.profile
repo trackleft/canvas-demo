@@ -5,6 +5,7 @@ declare(strict_types=1);
 use Drupal\Core\DefaultContent\Finder;
 use Drupal\Core\DefaultContent\Importer;
 use Drupal\Core\Entity\EntityRepositoryInterface;
+use Drupal\Core\Extension\ModuleInstallerInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Site\Settings;
 use Drupal\dashboard\Entity\Dashboard;
@@ -17,6 +18,7 @@ use Drupal\RecipeKit\Installer\Messenger;
 function drupal_cms_installer_install_tasks(): array {
   $tasks = [
     'xb_demo_alter_welcome_links' => [],
+    'xb_demo_uninstall_unnecessary_modules' => [],
   ] + Hooks::installTasks();
 
   if (getenv('IS_DDEV_PROJECT')) {
@@ -84,4 +86,10 @@ function xb_demo_alter_welcome_links(): void {
   $configuration['id'] = 'views_block:pages-block_1';
   $component->setConfiguration($configuration);
   $dashboard->save();
+}
+
+function xb_demo_uninstall_unnecessary_modules(): void {
+  \Drupal::service(ModuleInstallerInterface::class)->uninstall([
+    'gin_toolbar',
+  ]);
 }

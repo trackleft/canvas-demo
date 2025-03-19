@@ -20,7 +20,7 @@
         "drupal/core-composer-scaffold": "11.x-dev@dev",
         "drupal/core-recommended": "11.x-dev@dev",
         "drupal/default_content": "^2-alpha@alpha",
-        "drupal/demo_design_system": "1.0.x-dev@dev",
+        "drupal/demo_design_system": "^1",
         "drupal/experience_builder": "@alpha",
         "drupal/recipe_installer_kit": "^1-alpha3@alpha",
         "drupal/xb_demo": "@dev",

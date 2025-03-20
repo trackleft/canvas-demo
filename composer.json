@@ -18,7 +18,7 @@
         "drupal/core-recommended": "11.x-dev@dev",
         "drupal/dashboard": "^2",
         "drupal/default_content": "^2-alpha@alpha",
-        "drupal/demo_design_system": "^1",
+        "drupal/demo_design_system": "1.0.x-dev@dev",
         "drupal/drupal_cms_admin_ui": "^1.1",
         "drupal/drupal_cms_anti_spam": "^1.1",
         "drupal/drupal_cms_authentication": "^1.1",

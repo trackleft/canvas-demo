@@ -1,0 +1,41 @@
+diff --git a/src/Plugin/ExperienceBuilder/ComponentSource/GeneratedFieldExplicitInputUxComponentSourceBase.php b/src/Plugin/ExperienceBuilder/ComponentSource/GeneratedFieldExplicitInputUxComponentSourceBase.php
+index 351f5971e22f145f2ad9bae0d366752760f26eb1..a677a373f88d621184e8cb819056977718b545e7 100644
+--- a/src/Plugin/ExperienceBuilder/ComponentSource/GeneratedFieldExplicitInputUxComponentSourceBase.php
++++ b/src/Plugin/ExperienceBuilder/ComponentSource/GeneratedFieldExplicitInputUxComponentSourceBase.php
+@@ -719,8 +719,8 @@ abstract class GeneratedFieldExplicitInputUxComponentSourceBase extends Componen
+    */
+   public function clientModelToInput(string $component_instance_uuid, ComponentEntity $component, array $client_model, ?ConstraintViolationListInterface $violations = NULL): array {
+     $props = [];
+-
+-    foreach (($client_model['source'] ?? []) as $prop => $prop_source) {
++    $client_sources = $client_model['source'] ?? [];
++    foreach ($client_sources as $prop => $prop_source) {
+       if ($violations === NULL && !\array_key_exists($prop, $client_model['resolved'])) {
+         // Valueless prop, for the case where only a default is provided for the
+         // preview, not for storing.
+@@ -792,6 +792,25 @@ abstract class GeneratedFieldExplicitInputUxComponentSourceBase extends Componen
+       $props[$prop] = $source->toArray();
+     }
+
++    // Add any object props that were not in the client model.
++    $client_side_info = $this->getClientSideInfo($component);
++    assert(isset($client_side_info['field_data']));
++    foreach (array_diff_key($client_side_info['field_data'], $client_sources) as $prop => $field_data) {
++      if (!isset($client_side_info['build']['#props'][$prop])) {
++        // If the prop is not set at all, then no default is provided.
++        continue;
++      }
++      assert(isset($field_data['jsonSchema']));
++      if ($field_data['jsonSchema']['type'] === 'object') {
++        $source = new UrlPreviewPropSource(
++          value: $client_side_info['build']['#props'][$prop],
++          jsonSchema: $field_data['jsonSchema'],
++          componentId: $component->id(),
++        );
++        $props[$prop] = $source->toArray();
++      }
++    }
++
+     return $props;
+   }
+

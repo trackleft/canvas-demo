@@ -10,7 +10,7 @@ recipes:
   - drupal_cms_authentication
   - drupal_cms_page
   - drupal_cms_privacy_basic
-  - starshot_demo_content
+  - starshot_demo_blocks
 install:
   - block
   - experience_builder
@@ -33,6 +33,7 @@ install:
   - token
   - views_ui
 config:
+  strict: false
   import:
     experience_builder:
       - image.style.xb_avatar
@@ -40,6 +41,7 @@ config:
     image:
       - image.style.large
       - image.style.thumbnail
+    starshot_demo: '*'
     user:
       # This view mode is only needed because Olivero expects it to exist
       # in certain situations.
@@ -53,9 +55,6 @@ config:
       disable: []
     experience_builder.component.*.*.*:
       disable: []
-    # Re-enable the components provided by Drupal CMS.
-    experience_builder.component.sdc.drupal_cms_olivero.*:
-      enable: []
     gin.settings:
       simpleConfigUpdate:
         secondary_toolbar_frontend: false
@@ -65,7 +64,7 @@ config:
         js.preprocess: false
     system.site:
       simpleConfigUpdate:
-        page.front: '/home'
+        page.front: '/page/1'
     system.theme:
       simpleConfigUpdate:
         default: starshot_demo

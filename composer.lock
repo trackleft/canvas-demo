@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "507db12458ecf9e4966e7ef29931f740",
+    "content-hash": "7afebef2bfd16692533dd97ef1cd2675",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2198,11 +2198,17 @@
         },
         {
             "name": "drupal/demo_design_system",
-            "version": "dev-1.0.x",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/demo_design_system.git",
-                "reference": "d6e4e7d97ece389475388c69b8e4773ec72ae269"
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/demo_design_system-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "c94fe11ab031fc95267fc10e184b010a0fb55197"
             },
             "require": {
                 "drupal/components": "^3@beta",
@@ -2219,15 +2225,12 @@
             },
             "type": "drupal-theme",
             "extra": {
-                "branch-alias": {
-                    "dev-1.0.x": "1.0.x-dev"
-                },
                 "drupal": {
-                    "version": "1.0.0+1-dev",
-                    "datestamp": "1742439769",
+                    "version": "1.0.1",
+                    "datestamp": "1742597640",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -9036,7 +9039,6 @@
         "drupal/core-composer-scaffold": 20,
         "drupal/core-recommended": 20,
         "drupal/default_content": 15,
-        "drupal/demo_design_system": 20,
         "drupal/experience_builder": 15,
         "drupal/recipe_installer_kit": 15,
         "drupal/xb_demo": 20

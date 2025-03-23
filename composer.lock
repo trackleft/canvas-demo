@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7afebef2bfd16692533dd97ef1cd2675",
+    "content-hash": "9f8177f68702506774294b581344e1ee",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2649,17 +2649,17 @@
         },
         {
             "name": "drupal/experience_builder",
-            "version": "0.2.0-alpha5",
+            "version": "0.2.0-alpha6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/experience_builder.git",
-                "reference": "0.2.0-alpha5"
+                "reference": "0.2.0-alpha6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/experience_builder-0.2.0-alpha5.zip",
-                "reference": "0.2.0-alpha5",
-                "shasum": "ff6cd489a303f75a8b522a10be2d4356ed49a091"
+                "url": "https://ftp.drupal.org/files/projects/experience_builder-0.2.0-alpha6.zip",
+                "reference": "0.2.0-alpha6",
+                "shasum": "98d4c69c3f9d49a8c1e5dbbfd9ccd12c3d0045b0"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -2677,8 +2677,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "0.2.0-alpha5",
-                    "datestamp": "1742318258",
+                    "version": "0.2.0-alpha6",
+                    "datestamp": "1742725021",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"

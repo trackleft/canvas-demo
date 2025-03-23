@@ -1,0 +1,17 @@
+{
+    "_hash": "46ccd05951646b24ab36b02963ed3a2f86ca4a4bc9d61564f6f23203b35ee375",
+    "patches": {
+        "drupal/gin": [
+            {
+                "package": "drupal/gin",
+                "description": "#3497793: Dialog styles are not loading correctly in Experience Builder",
+                "url": "https://www.drupal.org/files/issues/2025-02-11/gin-changes.patch",
+                "sha256": "058b35941a51e3cb134ec73fe7b135ab55889bdaef8eb578113dfb24e5506aaf",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ]
+    }
+}

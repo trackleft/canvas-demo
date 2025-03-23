@@ -29,7 +29,7 @@
         "drupal/drupal_cms_page": "^1.1",
         "drupal/drupal_cms_privacy_basic": "^1.1",
         "drupal/eca": "^2.1.3",
-        "drupal/experience_builder": "^0.2.0-alpha5@alpha",
+        "drupal/experience_builder": "^0.2.0-alpha6@alpha",
         "drupal/recipe_installer_kit": "^1-alpha3@alpha",
         "drupal/token": "^1",
         "drupal/xb_demo": "@dev",
@@ -69,9 +69,6 @@
             "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
         },
         "patches": {
-            "drupal/experience_builder": {
-                "#3508077: Default image is lost after changing props": "./patches/xb-733.patch"
-            },
             "drupal/gin": {
                 "#3497793: Dialog styles are not loading correctly in Experience Builder": "https://www.drupal.org/files/issues/2025-02-11/gin-changes.patch"
             }

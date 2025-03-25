@@ -1,0 +1,12 @@
+uuid: 328aefa3-0809-42e8-9426-ed4a030961f6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - starshot_demo
+id: starshot_demo.banner
+region: banner
+theme: starshot_demo
+component_tree:
+  tree: '{"a548b48d-58a8-4077-aa04-da9405a6f418":{}}'
+  inputs: '{}'

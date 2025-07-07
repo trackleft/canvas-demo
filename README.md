@@ -1,17 +1,20 @@
 # Pre-release demo of Drupal Experience Builder
 
-## ⚠️ WARNING ⚠️
-This repository is intended to provide a **pre-beta demo** of Experience Builder. **Experience Builder is not stable** and could change anything, at any time, without warning. There is no update path yet; data loss is possible. Additionally, this demo project will be _abandoned_ when Experience Builder reaches beta (expected in mid-2025).
+<img src="https://github.com/user-attachments/assets/c7c3283b-2580-4434-8cce-771cb02aa1f7" width="300" align="right" />
 
-[Feedback is very welcome](https://www.drupal.org/node/add/project-issue/experience_builder), but **you ABSOLUTELY _SHOULD NOT_ use this project to build a real site.**
+Experience Builder (or XB for short) is Drupal's next-generation page building tool, [currently under heavy development on drupal.org](https://www.drupal.org/project/experience_builder). This is a demo package of Drupal to try out Experience Builder with a demo design system and sample pages. 😎
 
-## About
-Experience Builder (or XB for short) is Drupal's next-generation page building tool, [currently under heavy development on drupal.org](https://www.drupal.org/project/experience_builder). This is a demo package of Drupal to try out Experience Builder. 😎
+This repository is intended to provide an **throwaway demo** of Experience Builder. **Experience Builder is not yet stable** and could change anything, at any time, without warning. 
 
-## Getting Started 🚀
+There is no update path yet; data loss is possible. Additionally, this demo project will be _abandoned_ when Drupal CMS includes sufficient functionality to supersede the demo. That is expected around DrupalCon Vienna in October 2025. 
+
+**You ABSOLUTELY _SHOULD NOT_ use this project to build a real site.**
+
+## Getting Started with the Demo 🚀
+
 We strongly recommend using [DDEV](https://ddev.com/get-started/) (version 1.24.0 or later) to run this project, since it includes everything you'll need.
 
-Cloning the repository locally is not required.
+Cloning the repository locally is not required!
 
 Instead, in a terminal with DDEV installed, run the following commands to spin it up:
 ```shell
@@ -23,5 +26,8 @@ ddev launch
 ```
 You don't _have_ to use DDEV; any tech stack that supports Drupal should work just fine.
 
-## Getting Help
-Questions? Feedback? Bugs? [Find us in the #experience-builder channel on Drupal Slack.](https://drupal.slack.com/archives/C072JMEPUS1)
+## Issues and Help
+
+- Issues found in the demo should be submitted at https://github.com/phenaproxima/xb-demo/issues
+- Problems or suggestions for Experience Builder should be submitted at https://www.drupal.org/project/issues/experience_builder
+- Want to chat? [Find us in the #experience-builder channel on Drupal Slack.](https://drupal.slack.com/archives/C072JMEPUS1)

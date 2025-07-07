@@ -4,7 +4,7 @@
 
 Experience Builder (or XB for short) is Drupal's next-generation page building tool, [currently under heavy development on drupal.org](https://www.drupal.org/project/experience_builder). This is a demo package of Drupal to try out Experience Builder with a demo design system and sample pages. 😎
 
-This repository is intended to provide an **throwaway demo** of Experience Builder. **Experience Builder is not yet stable** and could change anything, at any time, without warning. 
+This repository is intended to provide a **throwaway demo** of Experience Builder. **Experience Builder is not yet stable** and could change anything, at any time, without warning. 
 
 There is no update path yet; data loss is possible. Additionally, this demo project will be _abandoned_ when Drupal CMS includes sufficient functionality to supersede the demo. That is expected around DrupalCon Vienna in October 2025. 
 

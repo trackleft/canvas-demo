@@ -83,8 +83,6 @@ config:
         - 'access contextual links'
         - 'access media overview'
         - 'access navigation'
-        # We need this permission because Toolbar is enabled by Gin Toolbar.
-        - 'access toolbar'
         - 'administer url aliases'
         - 'create url aliases'
         - 'view own unpublished media'

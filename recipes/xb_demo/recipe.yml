@@ -40,6 +40,7 @@ config:
       - editor.editor.xb_html_inline.yml
       - filter.format.xb_html_block.yml
       - filter.format.xb_html_inline.yml
+      - image.style.xb_parametrized_width
       # We ship with our own (same name). Keeping it here for searching later.
       # - experience_builder.xb_asset_library.global
     image:

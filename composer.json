@@ -75,7 +75,7 @@
         },
         "patches": {
             "drupal/gin": {
-                "#3497793: Dialog styles are not loading correctly in Experience Builder": "https://www.drupal.org/files/issues/2025-02-11/gin-changes.patch"
+                "#3497793: Dialog styles are not loading correctly in Experience Builder": "https://www.drupal.org/files/issues/2025-07-08/3497793-2025-07-08-gin-dialog.patch"
             }
         }
     }

@@ -10,6 +10,10 @@ There is no update path yet; data loss is possible. Additionally, this demo proj
 
 **You ABSOLUTELY _SHOULD NOT_ use this project to build a real site.**
 
+## This is how the demo looks like 
+
+<img width="1918" alt="Demo screenshot" src="https://github.com/user-attachments/assets/e974d6b1-11ba-4359-8321-8917b0778040" />
+
 ## Getting Started with the Demo 🚀
 
 We strongly recommend using [DDEV](https://ddev.com/get-started/) (version 1.24.0 or later) to run this project, since it includes everything you'll need.

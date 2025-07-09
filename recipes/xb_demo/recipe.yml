@@ -49,6 +49,7 @@ config:
       - image.style.large
       - image.style.thumbnail
     starshot_demo: '*'
+    metatag: '*'
     user:
       # This view mode is only needed because Olivero expects it to exist
       # in certain situations.

@@ -13,6 +13,7 @@ recipes:
   - starshot_demo_blocks
 install:
   - block
+  - metatag
   - experience_builder
   - xb_stark
   - gin

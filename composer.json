@@ -83,7 +83,7 @@
                 "#3531991: Experience builder has limited built-in metatag features, disable advanced form fields there as initial stop-gap": "https://www.drupal.org/files/issues/2025-07-09/1214.diff.txt"
             },
             "drupal/webform": {
-                "#3526637: Make webform blocks fully validatable and thus show as as dynamic component in Experience Builder": "https://www.drupal.org/files/issues/2025-07-09/632.diff.txt"
+                "#3526637: Make webform blocks fully validatable and thus show as as dynamic component in Experience Builder": "https://www.drupal.org/files/issues/2025-07-11/webform-block-schema.patch"
             }
         }
     }

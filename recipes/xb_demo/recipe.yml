@@ -48,13 +48,6 @@ config:
       - core.entity_view_mode.user.compact
       - views.view.user_admin_people
   actions:
-    # Disable all components XB generated during installation. Some components
-    # have two- or three-part identifiers, so we need to disable those
-    # separately.
-    experience_builder.component.*.*:
-      disable: []
-    experience_builder.component.*.*.*:
-      disable: []
     gin.settings:
       simpleConfigUpdate:
         secondary_toolbar_frontend: false

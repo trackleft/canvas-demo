@@ -48,6 +48,9 @@ config:
       - core.entity_view_mode.user.compact
       - views.view.user_admin_people
   actions:
+    # Disable all components XB generated during installation.
+    experience_builder.component.sdc.experience_builder.*:
+      disable: []
     gin.settings:
       simpleConfigUpdate:
         secondary_toolbar_frontend: false

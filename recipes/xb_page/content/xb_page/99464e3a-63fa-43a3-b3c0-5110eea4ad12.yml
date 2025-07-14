@@ -239,28 +239,14 @@ default:
       uuid: 4a89708a-db90-42a1-a36b-07f90de6ef3b
       component_id: sdc.starshot_demo.starshot-heading
       component_version: 23755b67bbb90cfa
-      inputs: '{"theme":"light","content":"Explore \u0026 Learn","level":2,"font":"heading","align":"left","margin":"medium"}'
+      inputs: '{"theme":"light","content":"Explore \u0026 Learn","level":2,"font":"heading","align":"left","margin":"small"}'
     -
       parent_uuid: c3544689-5dde-4758-8491-f0c8f0c57aa7
-      slot: content
-      uuid: 14e6b0c5-e605-4ccc-8946-f251f4b72d84
-      component_id: sdc.starshot_demo.starshot-grid
-      component_version: ac97f7af67f56638
-      inputs: '{"vertical":"center","horizontal":"left","direction":"across","gap":"small","wrap":"wrap","last_to_end":true,"modifier_class":"custom-class"}'
-    -
-      parent_uuid: 14e6b0c5-e605-4ccc-8946-f251f4b72d84
       slot: content
       uuid: 3cd613cc-29c3-4c9c-92ef-7c2dc1666490
       component_id: sdc.starshot_demo.starshot-paragraph
       component_version: 47bb2734d2a1b1d3
       inputs: '{"theme":"light","content":"Easily create the digital experiences you want with Drupal.","display":"strong"}'
-    -
-      parent_uuid: 14e6b0c5-e605-4ccc-8946-f251f4b72d84
-      slot: content
-      uuid: c5330360-5b06-482e-89bf-18fdb8d91b65
-      component_id: block.system_menu_block.starshot-demo-about
-      component_version: ec27618f936946dc
-      inputs: '{"level":"1","depth":"1","expand_all_items":true,"label":"Starshot Demo About Menu","label_display":"0"}'
     -
       parent_uuid: 3e61eff4-3e84-4bd6-bc0b-3c3feabc95b1
       slot: content

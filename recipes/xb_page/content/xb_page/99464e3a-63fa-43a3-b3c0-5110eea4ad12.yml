@@ -433,27 +433,6 @@ default:
     -
       parent_uuid: 0a7ffbe1-ade2-49fa-84c1-06330ab66ee9
       slot: social_media_icons
-      uuid: b8f6dd8c-0ffc-4539-b6fb-1361c749fb1f
-      component_id: sdc.starshot_demo.starshot-social-media-icon
-      component_version: 9ea53a7c14ecf697
-      inputs: '{"name":"youtube","url":{"uri":"https:\/\/www.youtube.com\/drupalassociation","options":[]}}'
-    -
-      parent_uuid: 0a7ffbe1-ade2-49fa-84c1-06330ab66ee9
-      slot: social_media_icons
-      uuid: cc3ee4e2-9dff-44e1-9c2d-a31cc139afa1
-      component_id: sdc.starshot_demo.starshot-social-media-icon
-      component_version: 9ea53a7c14ecf697
-      inputs: '{"name":"x","url":{"uri":"http:\/\/x.com\/drupal","options":[]}}'
-    -
-      parent_uuid: 0a7ffbe1-ade2-49fa-84c1-06330ab66ee9
-      slot: social_media_icons
-      uuid: 78718402-1787-498c-b5ee-3a92cc9a074d
-      component_id: sdc.starshot_demo.starshot-social-media-icon
-      component_version: 9ea53a7c14ecf697
-      inputs: '{"name":"youtube","url":{"uri":"https:\/\/mastodon.social\/@drupal","options":[]}}'
-    -
-      parent_uuid: 0a7ffbe1-ade2-49fa-84c1-06330ab66ee9
-      slot: social_media_icons
       uuid: f142e5c1-b4bf-4536-95bc-642aa9625313
       component_id: sdc.starshot_demo.starshot-social-media-icon
       component_version: 9ea53a7c14ecf697
@@ -461,17 +440,17 @@ default:
     -
       parent_uuid: 0a7ffbe1-ade2-49fa-84c1-06330ab66ee9
       slot: social_media_icons
-      uuid: 59dbad48-0c0d-48c1-af8d-904ba2deaa2a
-      component_id: sdc.starshot_demo.starshot-social-media-icon
-      component_version: 9ea53a7c14ecf697
-      inputs: '{"name":"facebook","url":{"uri":"https:\/\/www.facebook.com\/DrupalOpenSource\/","options":[]}}'
-    -
-      parent_uuid: 0a7ffbe1-ade2-49fa-84c1-06330ab66ee9
-      slot: social_media_icons
-      uuid: 5fff89f7-74a3-430a-b754-ae237b8d98ce
+      uuid: b8f6dd8c-0ffc-4539-b6fb-1361c749fb1f
       component_id: sdc.starshot_demo.starshot-social-media-icon
       component_version: 9ea53a7c14ecf697
       inputs: '{"name":"youtube","url":{"uri":"https:\/\/www.youtube.com\/drupalassociation","options":[]}}'
+    -
+      parent_uuid: 0a7ffbe1-ade2-49fa-84c1-06330ab66ee9
+      slot: social_media_icons
+      uuid: 78718402-1787-498c-b5ee-3a92cc9a074d
+      component_id: sdc.starshot_demo.starshot-social-media-icon
+      component_version: 9ea53a7c14ecf697
+      inputs: '{"name":"mastodon","url":{"uri":"https:\/\/mastodon.social\/@drupal","options":[]}}'
     -
       uuid: d294d9d6-7490-4885-b3ff-a76c38dc45fa
       component_id: sdc.starshot_demo.starshot-container

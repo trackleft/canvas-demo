@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b946d34ae2a202493521a1cd25c0f78",
+    "content-hash": "5c9eb07aa10db5957eefcda605ac3b98",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2204,17 +2204,17 @@
         },
         {
             "name": "drupal/demo_design_system",
-            "version": "1.0.4",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/demo_design_system.git",
-                "reference": "1.0.4"
+                "reference": "1.0.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/demo_design_system-1.0.4.zip",
-                "reference": "1.0.4",
-                "shasum": "87765be00481b1e34edb1a193a4cc7bfba66f20e"
+                "url": "https://ftp.drupal.org/files/projects/demo_design_system-1.0.6.zip",
+                "reference": "1.0.6",
+                "shasum": "d337fddac56fba465871ce22b87b43cd889c46b5"
             },
             "require": {
                 "drupal/components": "^3@beta",
@@ -2233,8 +2233,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "1.0.4",
-                    "datestamp": "1751992092",
+                    "version": "1.0.6",
+                    "datestamp": "1752543824",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9102,7 +9102,7 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

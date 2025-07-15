@@ -57,8 +57,8 @@ default:
       slot: content
       uuid: 82eab2db-0904-468d-8b2f-1a6aaa38e0f1
       component_id: sdc.starshot_demo.starshot-paragraph
-      component_version: 47bb2734d2a1b1d3
-      inputs: '{"theme":"dark","content":"Drupal is a fully composable CMS that allows you to design a digital experience around your vision.","display":"regular"}'
+      component_version: 6ff47234a02d8a56
+      inputs: '{"theme":"dark","content":"Drupal is a fully composable CMS that allows you to design a digital experience around your vision."}'
     -
       parent_uuid: d2fe0c70-774e-4fb3-858c-b3001e908b3d
       slot: content
@@ -118,8 +118,8 @@ default:
       slot: content
       uuid: be16ba68-a1a1-4bc3-a701-4851c551e3db
       component_id: sdc.starshot_demo.starshot-testimonial
-      component_version: 26dd98622121885e
-      inputs: '{"quote":"For our 1000+ websites, one of the benefits of Drupal is that accessiblity compliance is already covered.","cite":"Joyce Peralta, Manager, Digital Communications at McGill University","image":{"target_id":"9"}}'
+      component_version: 0347d0dc03e46a48
+      inputs: '{"quote":"For our 1000+ websites, one of the benefits of Drupal is that accessibility compliance is \u003Cem\u003Ealready\u003C/em\u003E covered.","cite":"Joyce Peralta, Manager, Digital Communications at McGill University","image":{"target_id":"9"}}'
     -
       uuid: 591ca800-fe54-4760-a42a-ddfa496fffe2
       component_id: sdc.starshot_demo.starshot-case-study
@@ -144,8 +144,8 @@ default:
       slot: content
       uuid: d5651314-682f-44a8-a0ab-a4d629345502
       component_id: sdc.starshot_demo.starshot-paragraph
-      component_version: 47bb2734d2a1b1d3
-      inputs: '{"theme":"light","content":"Nestl\u00e9 leveraged Drupal to simplify, standardize, and centralize its global digital properties.","display":"regular"}'
+      component_version: 6ff47234a02d8a56
+      inputs: '{"theme":"light","content":"Nestl\u00e9 leveraged Drupal to simplify, standardize, and centralize its global digital properties."}'
     -
       parent_uuid: 591ca800-fe54-4760-a42a-ddfa496fffe2
       slot: content
@@ -184,8 +184,8 @@ default:
       slot: cta_content
       uuid: a6e5013f-4fb7-4ffc-a5de-f0d1120f27fd
       component_id: sdc.starshot_demo.starshot-paragraph
-      component_version: 47bb2734d2a1b1d3
-      inputs: '{"theme":"light","content":"Get your website up and running faster.\u003Cbr\u003E\n\u003Cstrong\u003EDrupal CMS\u003C\/strong\u003E gives you the tools to bring your digital\nambitions to life without restricting your creativity.","display":"regular"}'
+      component_version: 6ff47234a02d8a56
+      inputs: '{"theme":"light","content":"Get your website up and running faster. \u003Cstrong\u003EDrupal CMS\u003C\/strong\u003E gives you the tools to bring your digital\nambitions to life without restricting your creativity."}'
     -
       parent_uuid: 78b21502-2e1b-4a27-b05b-f73d5fb62aac
       slot: cta_content
@@ -212,8 +212,8 @@ default:
       slot: cta_content
       uuid: 4c0ba9f3-c996-473a-890d-df88b119e188
       component_id: sdc.starshot_demo.starshot-paragraph
-      component_version: 47bb2734d2a1b1d3
-      inputs: '{"theme":"light","content":"Drupal Core provides the base features you rely on and\nallows you to start building from scratch.","display":"regular"}'
+      component_version: 6ff47234a02d8a56
+      inputs: '{"theme":"light","content":"\u003Cstrong\u003EDrupal Core\u003C\/strong\u003E provides the base features you rely on and\nallows you to start building from scratch."}'
     -
       parent_uuid: 78b21502-2e1b-4a27-b05b-f73d5fb62aac
       slot: cta_content
@@ -245,8 +245,8 @@ default:
       slot: content
       uuid: 3cd613cc-29c3-4c9c-92ef-7c2dc1666490
       component_id: sdc.starshot_demo.starshot-paragraph
-      component_version: 47bb2734d2a1b1d3
-      inputs: '{"theme":"light","content":"Easily create the digital experiences you want with Drupal.","display":"strong"}'
+      component_version: 6ff47234a02d8a56
+      inputs: '{"theme":"light","content":"Easily create the digital experiences you want with Drupal."}'
     -
       parent_uuid: 3e61eff4-3e84-4bd6-bc0b-3c3feabc95b1
       slot: content

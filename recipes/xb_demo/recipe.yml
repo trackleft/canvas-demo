@@ -43,6 +43,7 @@ config:
       - image.style.thumbnail
     starshot_demo: '*'
     metatag: '*'
+    webform: '*'
     user:
       # This view mode is only needed because Olivero expects it to exist
       # in certain situations.

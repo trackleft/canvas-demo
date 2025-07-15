@@ -18,7 +18,7 @@ default:
       uuid: 69d5d638-6be5-4e95-9166-1eea5aa7181e
       component_id: sdc.starshot_demo.starshot-container
       component_version: 0c9eb1305d71fa4d
-      inputs: '{"design":"none","design_slot":"shadow","spacing":"small","constrain":true,"side_padding":true,"act_as_header":true,"modifier_class":"custom-class"}'
+      inputs: '{"design":"none","design_slot":"shadow","spacing":"small","constrain":true,"side_padding":true,"act_as_header":true,"modifier_class":""}'
     -
       parent_uuid: 69d5d638-6be5-4e95-9166-1eea5aa7181e
       slot: content
@@ -77,7 +77,7 @@ default:
       uuid: 6c65a2b0-bae9-4b8c-b27e-15d4889846cb
       component_id: sdc.starshot_demo.starshot-heading
       component_version: 23755b67bbb90cfa
-      inputs: '{"theme":"light","content":"Flexible by design","level":2,"font":"heading","align":"left","margin":"large","modifier_class":"custom-class"}'
+      inputs: '{"theme":"light","content":"Flexible by design","level":2,"font":"heading","align":"left","margin":"large","modifier_class":""}'
     -
       parent_uuid: 09382339-02c0-4e88-949c-4daa120da189
       slot: content
@@ -192,7 +192,7 @@ default:
       uuid: ab832df1-3d66-42fa-8e01-f77838d0cfb0
       component_id: sdc.starshot_demo.starshot-grid
       component_version: ac97f7af67f56638
-      inputs: '{"vertical":"center","horizontal":"left","direction":"across","gap":"medium","wrap":"wrap","modifier_class":"custom-class"}'
+      inputs: '{"vertical":"center","horizontal":"left","direction":"across","gap":"medium","wrap":"wrap","modifier_class":""}'
     -
       parent_uuid: ab832df1-3d66-42fa-8e01-f77838d0cfb0
       slot: content
@@ -225,14 +225,14 @@ default:
       uuid: 3e61eff4-3e84-4bd6-bc0b-3c3feabc95b1
       component_id: sdc.starshot_demo.starshot-container
       component_version: 0c9eb1305d71fa4d
-      inputs: '{"design":"blue","design_slot":"none","spacing":"large","act_as_header":true,"modifier_class":"custom-class"}'
+      inputs: '{"design":"blue","design_slot":"none","spacing":"large","act_as_header":true,"modifier_class":""}'
     -
       parent_uuid: 3e61eff4-3e84-4bd6-bc0b-3c3feabc95b1
       slot: content
       uuid: c3544689-5dde-4758-8491-f0c8f0c57aa7
       component_id: sdc.starshot_demo.starshot-container
       component_version: 0c9eb1305d71fa4d
-      inputs: '{"design":"none","design_slot":"none","spacing":"small","modifier_class":"custom-class"}'
+      inputs: '{"design":"none","design_slot":"none","spacing":"small","modifier_class":""}'
     -
       parent_uuid: c3544689-5dde-4758-8491-f0c8f0c57aa7
       slot: content
@@ -455,7 +455,7 @@ default:
       uuid: d294d9d6-7490-4885-b3ff-a76c38dc45fa
       component_id: sdc.starshot_demo.starshot-container
       component_version: 0c9eb1305d71fa4d
-      inputs: '{"design":"blue","design_slot":"none","spacing":"small","constrain":true,"side_padding":true,"modifier_class":"custom-class"}'
+      inputs: '{"design":"blue","design_slot":"none","spacing":"small","constrain":true,"side_padding":true,"modifier_class":""}'
     -
       parent_uuid: d294d9d6-7490-4885-b3ff-a76c38dc45fa
       slot: content

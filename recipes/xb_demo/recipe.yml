@@ -14,6 +14,7 @@ recipes:
 install:
   - block
   - metatag
+  - webform
   - experience_builder
   - xb_stark
   - gin

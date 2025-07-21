@@ -26,8 +26,11 @@ mkdir xb-demo
 cd xb-demo
 ddev config --project-type=drupal11 --docroot=web
 ddev composer create-project phenaproxima/xb-demo --stability=dev
-ddev launch
+ddev drush si -y
+ddev drush user:login xb/xb_page/1/editor
 ```
+Now open the link Drush generated at the end to go right into Experience Builder.
+
 You don't _have_ to use DDEV; any tech stack that supports Drupal should work just fine.
 
 ## Issues and Help

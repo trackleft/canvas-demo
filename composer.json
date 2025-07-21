@@ -84,7 +84,7 @@
             },
             "drupal/webform": {
                 "#3526637: Make webform blocks fully validatable and thus show as as dynamic component in Experience Builder": "https://www.drupal.org/files/issues/2025-07-11/webform-block-schema.patch",
-                "#3526637: Make webform autocomplete a select list because autocomplate does not work with XB yet": "https://www.drupal.org/files/issues/2025-07-21/webform-block-select-only-for-xb-demo.patch"
+                "#3526637: Make webform autocomplete a select list because autocomplate does not work with XB yet": "https://www.drupal.org/files/issues/2025-07-21/webform-block-select-only-for-xb-demo-2.patch"
             }
         }
     }

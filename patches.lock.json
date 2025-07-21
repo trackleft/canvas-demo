@@ -1,5 +1,5 @@
 {
-    "_hash": "bb2e073afe565805124e6cec2238d8b65216b2062988afbc90d104eb6afeb96e",
+    "_hash": "47e0190952723fa328c838ab17d0be946a73dab36ea514277e6e97ab4f76e42a",
     "patches": {
         "drupal/gin": [
             {
@@ -39,8 +39,8 @@
             {
                 "package": "drupal/webform",
                 "description": "#3526637: Make webform autocomplete a select list because autocomplate does not work with XB yet",
-                "url": "https://www.drupal.org/files/issues/2025-07-21/webform-block-select-only-for-xb-demo.patch",
-                "sha256": "a5acd8fd2cec1f09899d0ab677705f10a258d4945c5354a5db43c7740b80e49d",
+                "url": "https://www.drupal.org/files/issues/2025-07-21/webform-block-select-only-for-xb-demo-2.patch",
+                "sha256": "0ad27acd9dac75da6a4deb4f16e4dd59e2ee10add663fc21fbb0b85eac9828e5",
                 "depth": 1,
                 "extra": {
                     "provenance": "root"

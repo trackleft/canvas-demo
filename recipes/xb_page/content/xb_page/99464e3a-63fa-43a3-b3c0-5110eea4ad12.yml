@@ -22,7 +22,7 @@ default:
     -
       uuid: 69d5d638-6be5-4e95-9166-1eea5aa7181e
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"none","design_slot":"shadow","spacing":"small","constrain":true,"side_padding":true,"act_as_header":true}'
     -
       parent_uuid: 69d5d638-6be5-4e95-9166-1eea5aa7181e
@@ -55,7 +55,7 @@ default:
     -
       uuid: d2fe0c70-774e-4fb3-858c-b3001e908b3d
       component_id: sdc.starshot_demo.starshot-hero
-      component_version: fba9a249c4fd3734
+      component_version: 29dbfd7ede74df39
       inputs: '{"title":"Create ambitious experiences that scale","design":"blue-stripe","image":{"target_id":"21"}}'
     -
       parent_uuid: d2fe0c70-774e-4fb3-858c-b3001e908b3d
@@ -74,7 +74,7 @@ default:
     -
       uuid: 09382339-02c0-4e88-949c-4daa120da189
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"none","design_slot":"none","spacing":"large","constrain":true,"side_padding":true}'
     -
       parent_uuid: 09382339-02c0-4e88-949c-4daa120da189
@@ -95,40 +95,40 @@ default:
       slot: column_one
       uuid: e6303515-8997-4260-a607-8a279fc85dbf
       component_id: sdc.starshot_demo.starshot-testimonial-card
-      component_version: 6454b42d99734ebc
+      component_version: 0cb4210179b4034c
       inputs: '{"title":"User-centric experiences","summary":"Create compelling content on more  devices than ever. With tools to build versatile, structured content and integrate with a wide array of digital marketing channels.","image":{"target_id":"19"}}'
     -
       parent_uuid: 9b4ded6e-879e-4298-9713-f7f3722f89c8
       slot: column_two
       uuid: 632b358e-e8ab-42ff-8ea2-22108e9a1368
       component_id: sdc.starshot_demo.starshot-testimonial-card
-      component_version: 6454b42d99734ebc
+      component_version: 0cb4210179b4034c
       inputs: '{"title":"User-centric experiences","summary":"Create compelling content on more  devices than ever. With tools to build versatile, structured content and integrate with a wide array of digital marketing channels.","image":{"target_id":"5"}}'
     -
       parent_uuid: 9b4ded6e-879e-4298-9713-f7f3722f89c8
       slot: column_three
       uuid: 35cbf063-7fd4-4e97-9202-52b4dd67c5f5
       component_id: sdc.starshot_demo.starshot-testimonial-card
-      component_version: 6454b42d99734ebc
+      component_version: 0cb4210179b4034c
       inputs: '{"title":"User-centric experiences","summary":"Create compelling content on more  devices than ever. With tools to build versatile, structured content and integrate with a wide array of digital marketing channels.","image":{"target_id":"12"}}'
     -
       parent_uuid: 9b4ded6e-879e-4298-9713-f7f3722f89c8
       slot: column_four
       uuid: a732ab8a-f687-412e-bdef-fc5e43a0ee9f
       component_id: sdc.starshot_demo.starshot-testimonial-card
-      component_version: 6454b42d99734ebc
+      component_version: 0cb4210179b4034c
       inputs: '{"title":"User-centric experiences","summary":"Create compelling content on more  devices than ever. With tools to build versatile, structured content and integrate with a wide array of digital marketing channels.","image":{"target_id":"15"}}'
     -
       parent_uuid: 09382339-02c0-4e88-949c-4daa120da189
       slot: content
       uuid: be16ba68-a1a1-4bc3-a701-4851c551e3db
       component_id: sdc.starshot_demo.starshot-testimonial
-      component_version: 0347d0dc03e46a48
+      component_version: 4f00cbd6354ce9f8
       inputs: '{"quote":{"value":"For our 1000+ websites, one of the benefits of Drupal is that accessibility compliance is \u003Cem\u003Ealready\u003C\/em\u003E covered."},"cite":"Joyce Peralta, Manager, Digital Communications at McGill University","image":{"target_id":"9"}}'
     -
       uuid: 591ca800-fe54-4760-a42a-ddfa496fffe2
       component_id: sdc.starshot_demo.starshot-case-study
-      component_version: 509266c6bc7d11c2
+      component_version: ec59d82e1753680a
       inputs: '{"title":"Learn why 1 in 8 enterprise websites runs on Drupal","image":{"target_id":"18"}}'
     -
       parent_uuid: 591ca800-fe54-4760-a42a-ddfa496fffe2
@@ -142,7 +142,7 @@ default:
       slot: content
       uuid: 338dc96c-6e59-4bf7-8172-dd8dc7e0e921
       component_id: sdc.starshot_demo.starshot-image
-      component_version: bfb30af7f8e1725f
+      component_version: 1c5432ce6397f811
       inputs: '{"image":{"target_id":"7"}}'
     -
       parent_uuid: 54714f3d-8cab-4aa3-b819-ee4ed41eb97b
@@ -175,7 +175,7 @@ default:
     -
       uuid: 7184fba7-bb90-4c2e-9493-6387d9f55814
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"light","design_slot":"none","spacing":"large","constrain":true,"side_padding":true,"act_as_header":true}'
     -
       parent_uuid: 7184fba7-bb90-4c2e-9493-6387d9f55814
@@ -229,14 +229,14 @@ default:
     -
       uuid: 3e61eff4-3e84-4bd6-bc0b-3c3feabc95b1
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"blue","design_slot":"none","spacing":"large","act_as_header":true}'
     -
       parent_uuid: 3e61eff4-3e84-4bd6-bc0b-3c3feabc95b1
       slot: content
       uuid: c3544689-5dde-4758-8491-f0c8f0c57aa7
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"none","design_slot":"none","spacing":"small"}'
     -
       parent_uuid: c3544689-5dde-4758-8491-f0c8f0c57aa7
@@ -264,28 +264,28 @@ default:
       slot: slide_one
       uuid: 75737219-caf5-4b79-9105-b7d29c9dc8cd
       component_id: sdc.starshot_demo.starshot-slide-card
-      component_version: eb73181337769bb9
+      component_version: 3b7cdffcbe5c6144
       inputs: '{"title":"Blog Title Ut aliquip nulla et","url":"https:\/\/drupal.org","color":"green","image":{"target_id":"27"}}'
     -
       parent_uuid: 8c45c2a5-b580-48e3-a78a-e023797c40ee
       slot: slide_two
       uuid: 0600f966-5bba-467b-b514-0a7755ff820f
       component_id: sdc.starshot_demo.starshot-slide-card
-      component_version: eb73181337769bb9
+      component_version: 3b7cdffcbe5c6144
       inputs: '{"title":"Blog Title Nostrud aliqua","url":"https:\/\/drupal.org","color":"green","image":{"target_id":"22"}}'
     -
       parent_uuid: 8c45c2a5-b580-48e3-a78a-e023797c40ee
       slot: slide_three
       uuid: 51accd8d-a1c8-4c42-b269-b2f8ce124a45
       component_id: sdc.starshot_demo.starshot-slide-card
-      component_version: eb73181337769bb9
+      component_version: 3b7cdffcbe5c6144
       inputs: '{"title":"Blog Title Dolore excepteur qui","url":"https:\/\/drupal.org","color":"green","image":{"target_id":"13"}}'
     -
       parent_uuid: 8c45c2a5-b580-48e3-a78a-e023797c40ee
       slot: slide_four
       uuid: a67ea104-d719-4cba-8539-a3949c3b66b5
       component_id: sdc.starshot_demo.starshot-slide-card
-      component_version: eb73181337769bb9
+      component_version: 3b7cdffcbe5c6144
       inputs: '{"title":"Blog Title Aliqua et veniam pariatur ut","url":"https:\/\/drupal.org","color":"red","image":{"target_id":"16"}}'
     -
       uuid: 07a2270a-3fce-40b2-b2e5-6e7f886c5dfb
@@ -311,7 +311,7 @@ default:
       slot: content
       uuid: 17056088-3492-49c8-9b3b-a9b254aff32d
       component_id: sdc.starshot_demo.starshot-image
-      component_version: bfb30af7f8e1725f
+      component_version: 1c5432ce6397f811
       inputs: '{"image":{"target_id":"10"}}'
     -
       parent_uuid: 58de0bbc-9224-4a5b-9851-da108ec5735d
@@ -325,7 +325,7 @@ default:
       slot: content
       uuid: e7517415-42bb-422e-8180-aefc04809737
       component_id: sdc.starshot_demo.starshot-image
-      component_version: bfb30af7f8e1725f
+      component_version: 1c5432ce6397f811
       inputs: '{"image":{"target_id":"26"}}'
     -
       parent_uuid: 07a2270a-3fce-40b2-b2e5-6e7f886c5dfb
@@ -337,7 +337,7 @@ default:
     -
       uuid: b7a7a96b-2276-42db-b497-ba5ffcf7b6bb
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"none","design_slot":"none","spacing":"large","constrain":true,"side_padding":true,"modifier_class":"custom-class"}'
     -
       parent_uuid: b7a7a96b-2276-42db-b497-ba5ffcf7b6bb
@@ -356,7 +356,7 @@ default:
     -
       uuid: e7e3d59a-a3c2-4b43-9d89-e0cead070895
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"green","design_slot":"none","spacing":"large","constrain":true,"side_padding":true,"image":{"target_id":"2"}}'
     -
       parent_uuid: e7e3d59a-a3c2-4b43-9d89-e0cead070895
@@ -410,7 +410,7 @@ default:
       slot: content
       uuid: 7e0b8d96-4333-4c56-9db6-93a81abdcc10
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"navy","design_slot":"none","spacing":"large"}'
     -
       parent_uuid: 7e0b8d96-4333-4c56-9db6-93a81abdcc10
@@ -445,7 +445,7 @@ default:
       slot: content
       uuid: ac6af42f-eaa0-4d18-9939-c9a049599202
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"gradient","design_slot":"none","spacing":"large"}'
     -
       parent_uuid: ac6af42f-eaa0-4d18-9939-c9a049599202
@@ -478,7 +478,7 @@ default:
     -
       uuid: d294d9d6-7490-4885-b3ff-a76c38dc45fa
       component_id: sdc.starshot_demo.starshot-container
-      component_version: 0c9eb1305d71fa4d
+      component_version: 05aa6a55c75e8789
       inputs: '{"design":"blue","design_slot":"none","spacing":"small","constrain":true,"side_padding":true}'
     -
       parent_uuid: d294d9d6-7490-4885-b3ff-a76c38dc45fa

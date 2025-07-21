@@ -1,5 +1,5 @@
 {
-    "_hash": "d83373327d3c4aa61eb00ba793bfd99b114ceae7f5dfdc727ee338c9f099c048",
+    "_hash": "bb2e073afe565805124e6cec2238d8b65216b2062988afbc90d104eb6afeb96e",
     "patches": {
         "drupal/gin": [
             {
@@ -31,6 +31,16 @@
                 "description": "#3526637: Make webform blocks fully validatable and thus show as as dynamic component in Experience Builder",
                 "url": "https://www.drupal.org/files/issues/2025-07-11/webform-block-schema.patch",
                 "sha256": "c147d187e3e30335ef7b15b59e0e19beb1d79cb447286da8c8b25d7b4c3de3e9",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            },
+            {
+                "package": "drupal/webform",
+                "description": "#3526637: Make webform autocomplete a select list because autocomplate does not work with XB yet",
+                "url": "https://www.drupal.org/files/issues/2025-07-21/webform-block-select-only-for-xb-demo.patch",
+                "sha256": "a5acd8fd2cec1f09899d0ab677705f10a258d4945c5354a5db43c7740b80e49d",
                 "depth": 1,
                 "extra": {
                     "provenance": "root"

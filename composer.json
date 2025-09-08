@@ -1,6 +1,6 @@
 {
     "name": "phenaproxima/xb-demo",
-    "description": "A pre-alpha demo of Drupal Composer running on top of Drupal CMS.",
+    "description": "A pre-alpha demo of Drupal Canvas running on top of Drupal CMS.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "repositories": {
@@ -38,8 +38,8 @@
         "drupal/recipe_installer_kit": "^1-alpha3@alpha",
         "drupal/token": "^1",
         "drupal/webform": "6.3.0-beta2",
-        "drupal/xb_demo": "@dev",
-        "drupal/xb_page": "@dev",
+        "drupal/canvas_demo": "@dev",
+        "drupal/canvas_page": "@dev",
         "drush/drush": "^13"
     },
     "conflict": {

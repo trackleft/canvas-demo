@@ -1,4 +1,4 @@
-# Pre-release demo of Drupal Experience Canvas
+# Pre-release demo of Drupal Canvas
 
 <img src="https://github.com/user-attachments/assets/c7c3283b-2580-4434-8cce-771cb02aa1f7" width="300" align="right" />
 

@@ -1,10 +1,10 @@
-# Pre-release demo of Drupal Experience Builder
+# Pre-release demo of Drupal Experience Canvas
 
 <img src="https://github.com/user-attachments/assets/c7c3283b-2580-4434-8cce-771cb02aa1f7" width="300" align="right" />
 
-Experience Builder (or XB for short) is Drupal's next-generation page building tool, [currently under heavy development on drupal.org](https://www.drupal.org/project/experience_builder). This is a demo package of Drupal to try out Experience Builder with a demo design system and sample pages. 😎
+Drupal Canvas (or Canvas for short) is Drupal's next-generation page building tool, [currently under heavy development on drupal.org](https://www.drupal.org/project/canvas). This is a demo package of Drupal to try out Drupal Canvas with a demo design system and sample pages. 😎
 
-This repository is intended to provide a **throwaway demo** of Experience Builder. **Experience Builder is not yet stable** and could change anything, at any time, without warning. 
+This repository is intended to provide a **throwaway demo** of Drupal Canvas. **Drupal Canvas is not yet stable** and could change anything, at any time, without warning. 
 
 There is no update path yet; data loss is possible. Additionally, this demo project will be _abandoned_ when Drupal CMS includes sufficient functionality to supersede the demo. That is expected around DrupalCon Vienna in October 2025. 
 
@@ -27,7 +27,7 @@ cd xb-demo
 ddev config --project-type=drupal11 --docroot=web
 ddev composer create-project phenaproxima/xb-demo --stability=dev
 ddev drush si -y
-ddev drush user:login xb/xb_page/1/editor
+ddev drush user:login canvas/canvas_page/1/editor
 ```
 Now open the link Drush generated at the end to go right into Experience Builder.
 
@@ -36,5 +36,5 @@ You don't _have_ to use DDEV; any tech stack that supports Drupal should work ju
 ## Issues and Help
 
 - Issues found in the demo should be submitted at https://github.com/phenaproxima/xb-demo/issues
-- Problems or suggestions for Experience Builder should be submitted at https://www.drupal.org/project/issues/experience_builder
-- Want to chat? [Find us in the #experience-builder channel on Drupal Slack.](https://drupal.slack.com/archives/C072JMEPUS1)
+- Problems or suggestions for Experience Builder should be submitted at https://www.drupal.org/project/issues/canvas
+- Want to chat? [Find us in the #experience-builder-is-now-drupal-canvas channel on Drupal Slack.](https://drupal.slack.com/archives/C072JMEPUS1)

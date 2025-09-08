@@ -1,6 +1,6 @@
 _meta:
   version: '1.0'
-  entity_type: xb_page
+  entity_type: canvas_page
   uuid: 99464e3a-63fa-43a3-b3c0-5110eea4ad12
   default_langcode: en
 default:
@@ -17,7 +17,7 @@ default:
       target_uuid: ''
   title:
     -
-      value: 'Awesome Demo Experience Builder'
+      value: 'Awesome Drupal Canvas Demo'
   components:
     -
       uuid: 69d5d638-6be5-4e95-9166-1eea5aa7181e
@@ -517,7 +517,7 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'Awesome Demo Experience Builder | Drush Site-Install'
+        content: 'Awesome Drupal Canvas Demo'
     -
       tag: link
       attributes:

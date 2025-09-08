@@ -1,6 +1,6 @@
-name: Experience Builder Demo
+name: Canvas Demo
 type: Demo
-description: A demonstration of the next-generation Experience Builder for Drupal.
+description: A demonstration of Drupal Canvas.
 recipes:
   - core/recipes/administrator_role
   - core/recipes/core_recommended_maintenance
@@ -15,8 +15,8 @@ install:
   - block
   - metatag
   - webform
-  - experience_builder
-  - xb_stark
+  - canvas
+  - canvas_stark
   - gin
   - starshot_demo
   - automated_cron
@@ -37,7 +37,7 @@ install:
 config:
   strict: false
   import:
-    experience_builder: '*'
+    canvas: '*'
     image:
       - image.style.large
       - image.style.thumbnail
@@ -50,8 +50,8 @@ config:
       - core.entity_view_mode.user.compact
       - views.view.user_admin_people
   actions:
-    # Disable all components XB generated during installation.
-    experience_builder.component.sdc.experience_builder.*:
+    # Disable all components Canvas generated during installation.
+    canvas.component.sdc.canvas.*:
       disable: []
     gin.settings:
       simpleConfigUpdate:

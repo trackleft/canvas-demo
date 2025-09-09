@@ -16,19 +16,26 @@ There is no update path yet; data loss is possible. Additionally, this demo proj
 
 ## Getting Started with the Demo 🚀
 
-We strongly recommend using [DDEV](https://ddev.com/get-started/) (version 1.24.0 or later) to run this project, since it includes everything you'll need.
+We strongly recommend using [DDEV](https://ddev.com/get-started/) (version 1.24.2 or later) to run this project, since it includes everything you'll need.
 
 Cloning the repository locally is not required!
 
 Instead, in a terminal with DDEV installed, run the following commands to spin it up:
+
 ```shell
 mkdir xb-demo
 cd xb-demo
 ddev config --project-type=drupal11 --docroot=web
+
+# For DDEV v1.24.2 or newer:
 ddev composer create-project phenaproxima/xb-demo --stability=dev
+# For DDEV v1.24.1 or older, upgrade DDEV or run this instead:
+# ddev composer create phenaproxima/xb-demo --stability=dev
+
 ddev drush si -y
 ddev drush user:login canvas/canvas_page/1/editor
 ```
+
 Now open the link Drush generated at the end to go right into Experience Builder.
 
 You don't _have_ to use DDEV; any tech stack that supports Drupal should work just fine.

@@ -1,5 +1,5 @@
 {
-    "_hash": "f873ac06f1cd2f0c636ea61b8ea28619c80829f63a19af7512fde1f2fb9658ee",
+    "_hash": "5c06e6835c2d009381d6cd45eeb0b76c0512a0049119d068e8578363985ad9f9",
     "patches": {
         "drupal/gin": [
             {
@@ -27,8 +27,8 @@
             {
                 "package": "drupal/canvas",
                 "description": "#3542392: Page path alias is not actually saved when pathauto is installed",
-                "url": "https://www.drupal.org/files/issues/2025-09-09/14633.diff",
-                "sha256": "5d580576810bd9b421055264e7f56fab010251574686fa1903a6a8fcd315b6c7",
+                "url": "https://www.drupal.org/files/issues/2025-09-09/43.diff",
+                "sha256": "4de185fdb44005440e36587a63ff215d4a8bbe57b06a2ff111730bee72cab497",
                 "depth": 1,
                 "extra": {
                     "provenance": "root"

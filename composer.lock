@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd7451181901319d9f8b80a83d13d790",
+    "content-hash": "6a5406fd1b1299963048c504eb4e5330",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1519,6 +1519,32 @@
             }
         },
         {
+            "name": "drupal/canvas_demo",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "recipes/canvas_demo",
+                "reference": "fc0a4b87a23e0fb055e5a2ced0f0ac2615cc89d5"
+            },
+            "type": "drupal-recipe",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "drupal/canvas_page",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "recipes/canvas_page",
+                "reference": "50f4e1d4628b6308d92e13f696947f9f2b958a87"
+            },
+            "type": "drupal-recipe",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "drupal/captcha",
             "version": "2.0.7",
             "source": {
@@ -2350,17 +2376,11 @@
         },
         {
             "name": "drupal/demo_design_system",
-            "version": "1.0.6",
+            "version": "dev-1.0.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/demo_design_system.git",
-                "reference": "1.0.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/demo_design_system-1.0.6.zip",
-                "reference": "1.0.6",
-                "shasum": "d337fddac56fba465871ce22b87b43cd889c46b5"
+                "reference": "6fdbc5d48f84c67f009d64b323812e9bfc0301a1"
             },
             "require": {
                 "drupal/components": "^3@beta",
@@ -2378,12 +2398,15 @@
             },
             "type": "drupal-theme",
             "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
                 "drupal": {
-                    "version": "1.0.6",
-                    "datestamp": "1752543824",
+                    "version": "1.0.6+1-dev",
+                    "datestamp": "1757364802",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -4157,32 +4180,6 @@
                 "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
-            }
-        },
-        {
-            "name": "drupal/canvas_demo",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "recipes/canvas_demo",
-                "reference": "1582d51c8963cccedbc9ccb4b3254446c4ba98c0"
-            },
-            "type": "drupal-recipe",
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
-            "name": "drupal/canvas_page",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "recipes/canvas_page",
-                "reference": "cd00ad1caee831624a2a51e85099f7aa08601ba3"
-            },
-            "type": "drupal-recipe",
-            "transport-options": {
-                "relative": true
             }
         },
         {
@@ -9193,12 +9190,13 @@
     "stability-flags": {
         "cweagans/composer-patches": 10,
         "drupal/canvas": 15,
+        "drupal/canvas_demo": 20,
+        "drupal/canvas_page": 20,
         "drupal/core-composer-scaffold": 20,
         "drupal/default_content": 15,
+        "drupal/demo_design_system": 20,
         "drupal/recipe_installer_kit": 15,
-        "drupal/webform": 10,
-        "drupal/canvas_demo": 20,
-        "drupal/canvas_page": 20
+        "drupal/webform": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,

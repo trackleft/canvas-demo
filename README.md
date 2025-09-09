@@ -36,12 +36,12 @@ ddev drush si -y
 ddev drush user:login canvas/canvas_page/1/editor
 ```
 
-Now open the link Drush generated at the end to go right into Experience Builder.
+Now open the link Drush generated at the end to go right into Drupal Canvas.
 
 You don't _have_ to use DDEV; any tech stack that supports Drupal should work just fine.
 
 ## Issues and Help
 
 - Issues found in the demo should be submitted at https://github.com/phenaproxima/xb-demo/issues
-- Problems or suggestions for Experience Builder should be submitted at https://www.drupal.org/project/issues/canvas
+- Problems or suggestions for Drupal Canvas should be submitted at https://www.drupal.org/project/issues/canvas
 - Want to chat? [Find us in the #experience-builder-is-now-drupal-canvas channel on Drupal Slack.](https://drupal.slack.com/archives/C072JMEPUS1)

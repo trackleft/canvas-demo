@@ -39,7 +39,7 @@
         "drupal/metatag": "^2.1",
         "drupal/recipe_installer_kit": "^1-alpha3@alpha",
         "drupal/token": "^1",
-        "drupal/webform": "6.3.0-beta2",
+        "drupal/webform": "6.3.0-beta4",
         "drush/drush": "^13"
     },
     "conflict": {
@@ -82,9 +82,6 @@
             "drupal/canvas": {
                 "#3531991: Drupal Canvas has limited built-in metatag features, disable advanced form fields there as initial stop-gap": "https://www.drupal.org/files/issues/2025-09-08/42.diff",
                 "#3542392: Page path alias is not actually saved when pathauto is installed": "https://www.drupal.org/files/issues/2025-09-09/43.diff"
-            },
-            "drupal/webform": {
-                "#3526637: Make webform blocks fully validatable and thus show as as dynamic component in Experience Builder": "https://www.drupal.org/files/issues/2025-07-11/webform-block-schema.patch"
             }
         }
     }

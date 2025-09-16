@@ -1,5 +1,5 @@
 {
-    "_hash": "737666ab3a655c6ed52b615e53d6f09a5e82e3d0cbd71f533320ec916a4f7572",
+    "_hash": "e7a94332373125f69cd0b97fbab18ff97000e9865153564a08b1b8459069aed6",
     "patches": {
         "drupal/gin": [
             {
@@ -29,18 +29,6 @@
                 "description": "#3542392: Page path alias is not actually saved when pathauto is installed",
                 "url": "https://www.drupal.org/files/issues/2025-09-09/43.diff",
                 "sha256": "4de185fdb44005440e36587a63ff215d4a8bbe57b06a2ff111730bee72cab497",
-                "depth": 1,
-                "extra": {
-                    "provenance": "root"
-                }
-            }
-        ],
-        "drupal/webform": [
-            {
-                "package": "drupal/webform",
-                "description": "#3526637: Make webform blocks fully validatable and thus show as as dynamic component in Experience Builder",
-                "url": "https://www.drupal.org/files/issues/2025-07-11/webform-block-schema.patch",
-                "sha256": "c147d187e3e30335ef7b15b59e0e19beb1d79cb447286da8c8b25d7b4c3de3e9",
                 "depth": 1,
                 "extra": {
                     "provenance": "root"

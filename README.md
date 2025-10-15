@@ -28,9 +28,9 @@ cd canvas-demo
 ddev config --project-type=drupal11 --docroot=web
 
 # For DDEV v1.24.2 or newer:
-ddev composer create-project phenaproxima/xb-demo --stability=dev
+ddev composer create-project phenaproxima/canvas-demo --stability=dev
 # For DDEV v1.24.1 or older, upgrade DDEV or run this instead:
-# ddev composer create phenaproxima/xb-demo --stability=dev
+# ddev composer create phenaproxima/canvas-demo --stability=dev
 
 ddev drush si -y
 ddev drush user:login canvas/editor/canvas_page/1
